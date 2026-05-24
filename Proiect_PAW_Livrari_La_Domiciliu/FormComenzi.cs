@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Proiect_PAW_Livrari_La_Domiciliu
 {
-    public partial class Form1 : Form
+    public partial class FormComenzi : Form
     {
-        public Form1()
+        public FormComenzi()
         {
             InitializeComponent();
         }

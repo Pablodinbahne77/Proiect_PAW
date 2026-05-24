@@ -47,14 +47,45 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Client.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="Comanda.cs" />
+    <Compile Include="Factura.cs" />
+    <Compile Include="FormClienti.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FormClienti.Designer.cs">
+      <DependentUpon>FormClienti.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormComenzi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormComenzi.Designer.cs">
+      <DependentUpon>FormComenzi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFacturi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFacturi.Designer.cs">
+      <DependentUpon>FormFacturi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPrincipal.Designer.cs">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormProduse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProduse.Designer.cs">
+      <DependentUpon>FormProduse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LinieComanda.cs" />
+    <Compile Include="Produs.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormPrincipal.resx">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
