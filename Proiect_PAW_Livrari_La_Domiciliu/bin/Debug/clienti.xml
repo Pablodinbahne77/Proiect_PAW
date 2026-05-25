@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Clienti>
+  <Client>
+    <Id>1</Id>
+    <Nume>Dobre</Nume>
+    <Prenume>Catalin Marius</Prenume>
+    <Email>dobre@catalin</Email>
+    <Telefon>0744347854</Telefon>
+    <Adresa>bla bla bla</Adresa>
+  </Client>
+</Clienti>

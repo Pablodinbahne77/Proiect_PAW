@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LiniiComanda>
+  <LinieComanda>
+    <Id>1</Id>
+    <IdComanda>1</IdComanda>
+    <IdProdus>1</IdProdus>
+    <Cantitate>2</Cantitate>
+    <PretUnitar>27.50</PretUnitar>
+  </LinieComanda>
+  <LinieComanda>
+    <Id>2</Id>
+    <IdComanda>1</IdComanda>
+    <IdProdus>3</IdProdus>
+    <Cantitate>2</Cantitate>
+    <PretUnitar>6.00</PretUnitar>
+  </LinieComanda>
+  <LinieComanda>
+    <Id>3</Id>
+    <IdComanda>1</IdComanda>
+    <IdProdus>4</IdProdus>
+    <Cantitate>1</Cantitate>
+    <PretUnitar>15.00</PretUnitar>
+  </LinieComanda>
+  <LinieComanda>
+    <Id>4</Id>
+    <IdComanda>2</IdComanda>
+    <IdProdus>2</IdProdus>
+    <Cantitate>1</Cantitate>
+    <PretUnitar>23.50</PretUnitar>
+  </LinieComanda>
+  <LinieComanda>
+    <Id>5</Id>
+    <IdComanda>2</IdComanda>
+    <IdProdus>4</IdProdus>
+    <Cantitate>2</Cantitate>
+    <PretUnitar>15.00</PretUnitar>
+  </LinieComanda>
+</LiniiComanda>

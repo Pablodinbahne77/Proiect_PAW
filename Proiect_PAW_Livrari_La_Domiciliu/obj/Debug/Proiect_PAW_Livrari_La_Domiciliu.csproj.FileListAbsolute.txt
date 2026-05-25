@@ -1,0 +1,14 @@
+C:\Users\User\Source\Repos\Proiect_PAW\Proiect_PAW_Livrari_La_Domiciliu\bin\Debug\Proiect_PAW_Livrari_La_Domiciliu.exe.config
+C:\Users\User\Source\Repos\Proiect_PAW\Proiect_PAW_Livrari_La_Domiciliu\bin\Debug\Proiect_PAW_Livrari_La_Domiciliu.exe
+C:\Users\User\Source\Repos\Proiect_PAW\Proiect_PAW_Livrari_La_Domiciliu\bin\Debug\Proiect_PAW_Livrari_La_Domiciliu.pdb
+C:\Users\User\Source\Repos\Proiect_PAW\Proiect_PAW_Livrari_La_Domiciliu\obj\Debug\Proiect_PAW_Livrari_La_Domiciliu.csproj.AssemblyReference.cache
+C:\Users\User\Source\Repos\Proiect_PAW\Proiect_PAW_Livrari_La_Domiciliu\obj\Debug\Proiect_PAW_Livrari_La_Domiciliu.FormClienti.resources
+C:\Users\User\Source\Repos\Proiect_PAW\Proiect_PAW_Livrari_La_Domiciliu\obj\Debug\Proiect_PAW_Livrari_La_Domiciliu.FormComenzi.resources
+C:\Users\User\Source\Repos\Proiect_PAW\Proiect_PAW_Livrari_La_Domiciliu\obj\Debug\Proiect_PAW_Livrari_La_Domiciliu.FormPrincipal.resources
+C:\Users\User\Source\Repos\Proiect_PAW\Proiect_PAW_Livrari_La_Domiciliu\obj\Debug\Proiect_PAW_Livrari_La_Domiciliu.Properties.Resources.resources
+C:\Users\User\Source\Repos\Proiect_PAW\Proiect_PAW_Livrari_La_Domiciliu\obj\Debug\Proiect_PAW_Livrari_La_Domiciliu.csproj.GenerateResource.cache
+C:\Users\User\Source\Repos\Proiect_PAW\Proiect_PAW_Livrari_La_Domiciliu\obj\Debug\Proiect_PAW_Livrari_La_Domiciliu.csproj.CoreCompileInputs.cache
+C:\Users\User\Source\Repos\Proiect_PAW\Proiect_PAW_Livrari_La_Domiciliu\obj\Debug\Proiect_PAW_Livrari_La_Domiciliu.exe
+C:\Users\User\Source\Repos\Proiect_PAW\Proiect_PAW_Livrari_La_Domiciliu\obj\Debug\Proiect_PAW_Livrari_La_Domiciliu.pdb
+C:\Users\User\Source\Repos\Proiect_PAW\Proiect_PAW_Livrari_La_Domiciliu\obj\Debug\Proiect_PAW_Livrari_La_Domiciliu.exe.config
+C:\Users\User\Source\Repos\Proiect_PAW\Proiect_PAW_Livrari_La_Domiciliu\obj\Debug\Proiect_PAW_Livrari_La_Domiciliu.FormProduse.resources

@@ -17,10 +17,11 @@ namespace Proiect_PAW_Livrari_La_Domiciliu
 
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.labelDateProdus = new System.Windows.Forms.Label();
             this.labelDenumire = new System.Windows.Forms.Label();
-            this.labelPretUnitar = new System.Windows.Forms.Label();
             this.tbDenumire = new System.Windows.Forms.TextBox();
+            this.labelPretUnitar = new System.Windows.Forms.Label();
             this.tbPretUnitar = new System.Windows.Forms.TextBox();
             this.btnSalveaza = new System.Windows.Forms.Button();
             this.btnAnuleaza = new System.Windows.Forms.Button();
@@ -29,110 +30,121 @@ namespace Proiect_PAW_Livrari_La_Domiciliu
             this.btnModifica = new System.Windows.Forms.Button();
             this.btnSterge = new System.Windows.Forms.Button();
             this.dgvProduse = new System.Windows.Forms.DataGridView();
+            this.errorProvider = new System.Windows.Forms.ErrorProvider(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dgvProduse)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider)).BeginInit();
             this.SuspendLayout();
-            //
+            // 
             // labelDateProdus
-            //
+            // 
             this.labelDateProdus.AutoSize = true;
             this.labelDateProdus.Location = new System.Drawing.Point(46, 9);
             this.labelDateProdus.Name = "labelDateProdus";
-            this.labelDateProdus.TabIndex = 10;
+            this.labelDateProdus.Size = new System.Drawing.Size(85, 13);
+            this.labelDateProdus.TabIndex = 0;
             this.labelDateProdus.Text = "DATE PRODUS";
-            //
+            // 
             // labelDenumire
-            //
+            // 
             this.labelDenumire.AutoSize = true;
             this.labelDenumire.Location = new System.Drawing.Point(46, 36);
             this.labelDenumire.Name = "labelDenumire";
-            this.labelDenumire.TabIndex = 0;
+            this.labelDenumire.Size = new System.Drawing.Size(52, 13);
+            this.labelDenumire.TabIndex = 1;
             this.labelDenumire.Text = "&Denumire";
-            //
-            // labelPretUnitar
-            //
-            this.labelPretUnitar.AutoSize = true;
-            this.labelPretUnitar.Location = new System.Drawing.Point(422, 36);
-            this.labelPretUnitar.Name = "labelPretUnitar";
-            this.labelPretUnitar.TabIndex = 1;
-            this.labelPretUnitar.Text = "&Pret unitar";
-            //
+            // 
             // tbDenumire
-            //
+            // 
             this.tbDenumire.Location = new System.Drawing.Point(49, 52);
             this.tbDenumire.Name = "tbDenumire";
             this.tbDenumire.Size = new System.Drawing.Size(262, 20);
-            this.tbDenumire.TabIndex = 0;
-            //
+            this.tbDenumire.TabIndex = 2;
+            // 
+            // labelPretUnitar
+            // 
+            this.labelPretUnitar.AutoSize = true;
+            this.labelPretUnitar.Location = new System.Drawing.Point(422, 36);
+            this.labelPretUnitar.Name = "labelPretUnitar";
+            this.labelPretUnitar.Size = new System.Drawing.Size(55, 13);
+            this.labelPretUnitar.TabIndex = 3;
+            this.labelPretUnitar.Text = "&Pret unitar";
+            // 
             // tbPretUnitar
-            //
+            // 
             this.tbPretUnitar.Location = new System.Drawing.Point(425, 52);
             this.tbPretUnitar.Name = "tbPretUnitar";
             this.tbPretUnitar.Size = new System.Drawing.Size(262, 20);
-            this.tbPretUnitar.TabIndex = 1;
-            //
+            this.tbPretUnitar.TabIndex = 4;
+            // 
             // btnSalveaza
-            //
+            // 
             this.btnSalveaza.Location = new System.Drawing.Point(49, 88);
             this.btnSalveaza.Name = "btnSalveaza";
             this.btnSalveaza.Size = new System.Drawing.Size(94, 31);
-            this.btnSalveaza.TabIndex = 2;
+            this.btnSalveaza.TabIndex = 5;
             this.btnSalveaza.Text = "Sal&veaza";
             this.btnSalveaza.UseVisualStyleBackColor = true;
-            //
+            // 
             // btnAnuleaza
-            //
+            // 
+            this.btnAnuleaza.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnAnuleaza.Location = new System.Drawing.Point(149, 88);
             this.btnAnuleaza.Name = "btnAnuleaza";
             this.btnAnuleaza.Size = new System.Drawing.Size(94, 31);
-            this.btnAnuleaza.TabIndex = 3;
-            this.btnAnuleaza.Text = "A&nuleaza";
+            this.btnAnuleaza.TabIndex = 6;
+            this.btnAnuleaza.Text = "An&uleaza";
             this.btnAnuleaza.UseVisualStyleBackColor = true;
-            //
+            // 
             // labelListaProduse
-            //
+            // 
             this.labelListaProduse.AutoSize = true;
             this.labelListaProduse.Location = new System.Drawing.Point(46, 135);
             this.labelListaProduse.Name = "labelListaProduse";
-            this.labelListaProduse.TabIndex = 11;
+            this.labelListaProduse.Size = new System.Drawing.Size(93, 13);
+            this.labelListaProduse.TabIndex = 7;
             this.labelListaProduse.Text = "LISTA PRODUSE";
-            //
+            // 
             // btnAdauga
-            //
+            // 
             this.btnAdauga.Location = new System.Drawing.Point(390, 130);
             this.btnAdauga.Name = "btnAdauga";
             this.btnAdauga.Size = new System.Drawing.Size(94, 31);
-            this.btnAdauga.TabIndex = 4;
+            this.btnAdauga.TabIndex = 8;
             this.btnAdauga.Text = "Adau&ga";
             this.btnAdauga.UseVisualStyleBackColor = true;
-            //
+            // 
             // btnModifica
-            //
+            // 
             this.btnModifica.Location = new System.Drawing.Point(493, 130);
             this.btnModifica.Name = "btnModifica";
             this.btnModifica.Size = new System.Drawing.Size(94, 31);
-            this.btnModifica.TabIndex = 5;
+            this.btnModifica.TabIndex = 9;
             this.btnModifica.Text = "&Modifica";
             this.btnModifica.UseVisualStyleBackColor = true;
-            //
+            // 
             // btnSterge
-            //
+            // 
             this.btnSterge.Location = new System.Drawing.Point(593, 130);
             this.btnSterge.Name = "btnSterge";
             this.btnSterge.Size = new System.Drawing.Size(94, 31);
-            this.btnSterge.TabIndex = 6;
+            this.btnSterge.TabIndex = 10;
             this.btnSterge.Text = "St&erge";
             this.btnSterge.UseVisualStyleBackColor = true;
-            //
+            // 
             // dgvProduse
-            //
+            // 
             this.dgvProduse.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvProduse.Location = new System.Drawing.Point(49, 168);
             this.dgvProduse.Name = "dgvProduse";
             this.dgvProduse.Size = new System.Drawing.Size(638, 145);
-            this.dgvProduse.TabIndex = 7;
-            //
+            this.dgvProduse.TabIndex = 11;
+            // 
+            // errorProvider
+            // 
+            this.errorProvider.ContainerControl = this;
+            // 
             // FormProduse
-            //
+            // 
             this.AcceptButton = this.btnSalveaza;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -146,23 +158,26 @@ namespace Proiect_PAW_Livrari_La_Domiciliu
             this.Controls.Add(this.btnAnuleaza);
             this.Controls.Add(this.btnSalveaza);
             this.Controls.Add(this.tbPretUnitar);
-            this.Controls.Add(this.tbDenumire);
             this.Controls.Add(this.labelPretUnitar);
+            this.Controls.Add(this.tbDenumire);
             this.Controls.Add(this.labelDenumire);
             this.Controls.Add(this.labelDateProdus);
             this.Name = "FormProduse";
             this.Text = "FormProduse";
+            this.Load += new System.EventHandler(this.FormProduse_Load_1);
             ((System.ComponentModel.ISupportInitialize)(this.dgvProduse)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
+
         }
 
         #endregion
 
         private System.Windows.Forms.Label labelDateProdus;
         private System.Windows.Forms.Label labelDenumire;
-        private System.Windows.Forms.Label labelPretUnitar;
         private System.Windows.Forms.TextBox tbDenumire;
+        private System.Windows.Forms.Label labelPretUnitar;
         private System.Windows.Forms.TextBox tbPretUnitar;
         private System.Windows.Forms.Button btnSalveaza;
         private System.Windows.Forms.Button btnAnuleaza;
@@ -171,5 +186,6 @@ namespace Proiect_PAW_Livrari_La_Domiciliu
         private System.Windows.Forms.Button btnModifica;
         private System.Windows.Forms.Button btnSterge;
         private System.Windows.Forms.DataGridView dgvProduse;
+        private System.Windows.Forms.ErrorProvider errorProvider;
     }
 }

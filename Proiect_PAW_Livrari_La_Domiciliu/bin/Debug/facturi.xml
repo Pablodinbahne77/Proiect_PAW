@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Facturi>
+  <Factura>
+    <Id>3</Id>
+    <IdComanda>1</IdComanda>
+    <DataEmitere>2026-05-26</DataEmitere>
+    <PretTotal>82.00</PretTotal>
+  </Factura>
+</Facturi>

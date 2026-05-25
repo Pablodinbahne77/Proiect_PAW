@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Comenzi>
+  <Comanda>
+    <Id>1</Id>
+    <IdClient>1</IdClient>
+    <DataComanda>2026-05-20</DataComanda>
+    <Status>Livrat</Status>
+    <AdresaLivrare>dadada</AdresaLivrare>
+  </Comanda>
+  <Comanda>
+    <Id>2</Id>
+    <IdClient>1</IdClient>
+    <DataComanda>2026-05-26</DataComanda>
+    <Status>Livrat</Status>
+    <AdresaLivrare>dadada</AdresaLivrare>
+  </Comanda>
+</Comenzi>
