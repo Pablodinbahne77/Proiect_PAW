@@ -16,5 +16,10 @@ namespace Proiect_PAW_Livrari_La_Domiciliu
         {
             InitializeComponent();
         }
+
+        private void FormComenzi_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

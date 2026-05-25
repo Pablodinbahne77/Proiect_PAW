@@ -86,6 +86,9 @@
     <EmbeddedResource Include="FormClienti.resx">
       <DependentUpon>FormClienti.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormComenzi.resx">
+      <DependentUpon>FormComenzi.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormPrincipal.resx">
       <DependentUpon>FormPrincipal.cs</DependentUpon>
     </EmbeddedResource>
