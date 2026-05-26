@@ -11,6 +11,7 @@ namespace Proiect_PAW_Livrari_La_Domiciliu
         private List<Produs> listaProduse = new List<Produs>();
         private int idUrm = 1;
         private string caleXml = "produse.xml";
+        private AccesBD bd = new AccesBD();
 
         public FormProduse()
         {
@@ -106,6 +107,7 @@ namespace Proiect_PAW_Livrari_La_Domiciliu
             {
                 Produs produsNou = new Produs(idUrm, tbDenumire.Text, pret);
                 listaProduse.Add(produsNou);
+                try { bd.AdaugaProdus(produsNou); } catch { }
                 idUrm++;
             }
             else
@@ -126,6 +128,7 @@ namespace Proiect_PAW_Livrari_La_Domiciliu
                 {
                     produsDeModificat.setDenumire(tbDenumire.Text);
                     produsDeModificat.setPretUnitar(pret);
+                    try { bd.ModificaProdus(produsDeModificat); } catch { }
                 }
             }
 
@@ -188,6 +191,7 @@ namespace Proiect_PAW_Livrari_La_Domiciliu
             if (produsDeSters != null)
             {
                 listaProduse.Remove(produsDeSters);
+                try { bd.StergeProdus(id); } catch { }
                 SalveazaXml();
                 RefreshGrid();
                 GolesesteCampuri();

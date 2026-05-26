@@ -5,34 +5,69 @@
     <IdComanda>1</IdComanda>
     <IdProdus>1</IdProdus>
     <Cantitate>2</Cantitate>
-    <PretUnitar>27.50</PretUnitar>
+    <PretUnitar>27,50</PretUnitar>
   </LinieComanda>
   <LinieComanda>
     <Id>2</Id>
     <IdComanda>1</IdComanda>
     <IdProdus>3</IdProdus>
-    <Cantitate>2</Cantitate>
-    <PretUnitar>6.00</PretUnitar>
+    <Cantitate>4</Cantitate>
+    <PretUnitar>15,00</PretUnitar>
   </LinieComanda>
   <LinieComanda>
     <Id>3</Id>
     <IdComanda>1</IdComanda>
     <IdProdus>4</IdProdus>
     <Cantitate>1</Cantitate>
-    <PretUnitar>15.00</PretUnitar>
+    <PretUnitar>6,00</PretUnitar>
   </LinieComanda>
   <LinieComanda>
     <Id>4</Id>
     <IdComanda>2</IdComanda>
-    <IdProdus>2</IdProdus>
-    <Cantitate>1</Cantitate>
-    <PretUnitar>23.50</PretUnitar>
+    <IdProdus>3</IdProdus>
+    <Cantitate>5</Cantitate>
+    <PretUnitar>15,00</PretUnitar>
   </LinieComanda>
   <LinieComanda>
     <Id>5</Id>
     <IdComanda>2</IdComanda>
+    <IdProdus>2</IdProdus>
+    <Cantitate>3</Cantitate>
+    <PretUnitar>23,50</PretUnitar>
+  </LinieComanda>
+  <LinieComanda>
+    <Id>6</Id>
+    <IdComanda>2</IdComanda>
+    <IdProdus>1</IdProdus>
+    <Cantitate>1</Cantitate>
+    <PretUnitar>27,50</PretUnitar>
+  </LinieComanda>
+  <LinieComanda>
+    <Id>7</Id>
+    <IdComanda>2</IdComanda>
     <IdProdus>4</IdProdus>
-    <Cantitate>2</Cantitate>
-    <PretUnitar>15.00</PretUnitar>
+    <Cantitate>1</Cantitate>
+    <PretUnitar>6,00</PretUnitar>
+  </LinieComanda>
+  <LinieComanda>
+    <Id>8</Id>
+    <IdComanda>1</IdComanda>
+    <IdProdus>1</IdProdus>
+    <Cantitate>3</Cantitate>
+    <PretUnitar>27,50</PretUnitar>
+  </LinieComanda>
+  <LinieComanda>
+    <Id>9</Id>
+    <IdComanda>1</IdComanda>
+    <IdProdus>1</IdProdus>
+    <Cantitate>1</Cantitate>
+    <PretUnitar>27,50</PretUnitar>
+  </LinieComanda>
+  <LinieComanda>
+    <Id>10</Id>
+    <IdComanda>1</IdComanda>
+    <IdProdus>3</IdProdus>
+    <Cantitate>1</Cantitate>
+    <PretUnitar>15,00</PretUnitar>
   </LinieComanda>
 </LiniiComanda>

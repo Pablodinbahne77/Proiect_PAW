@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Proiect_PAW_Livrari_La_Domiciliu
 {
-    internal class Client : ICloneable
+    public class Client : ICloneable
     {
         private int id_client;
         private string nume;

@@ -3,21 +3,21 @@
   <Produs>
     <Id>1</Id>
     <Denumire>Pizza</Denumire>
-    <PretUnitar>27.50</PretUnitar>
+    <PretUnitar>27,50</PretUnitar>
   </Produs>
   <Produs>
     <Id>2</Id>
     <Denumire>Paste</Denumire>
-    <PretUnitar>23.50</PretUnitar>
+    <PretUnitar>23,50</PretUnitar>
   </Produs>
   <Produs>
     <Id>3</Id>
-    <Denumire>Suc</Denumire>
-    <PretUnitar>6.00</PretUnitar>
+    <Denumire>Tiramisu</Denumire>
+    <PretUnitar>15,00</PretUnitar>
   </Produs>
   <Produs>
     <Id>4</Id>
-    <Denumire>Tiramisu</Denumire>
-    <PretUnitar>15.00</PretUnitar>
+    <Denumire>Suc</Denumire>
+    <PretUnitar>6,00</PretUnitar>
   </Produs>
 </Produse>

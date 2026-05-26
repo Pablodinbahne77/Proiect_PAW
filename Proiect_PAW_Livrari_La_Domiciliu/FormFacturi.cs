@@ -17,6 +17,7 @@ namespace Proiect_PAW_Livrari_La_Domiciliu
         private string caleXmlComenzi = "comenzi.xml";
         private string caleXmlClienti = "clienti.xml";
         private string caleXmlLinii = "linii_comanda.xml";
+        private AccesBD bd = new AccesBD();
 
         public FormFacturi()
         {
@@ -228,6 +229,7 @@ namespace Proiect_PAW_Livrari_La_Domiciliu
             {
                 Factura facturaNoua = new Factura(idUrm, idComanda, dataEmitere, pretTotal);
                 listaFacturi.Add(facturaNoua);
+                try { bd.AdaugaFactura(facturaNoua); } catch { }
                 idUrm++;
             }
             else
@@ -249,6 +251,7 @@ namespace Proiect_PAW_Livrari_La_Domiciliu
                     facturaDeModificat.setId_comanda(idComanda);
                     facturaDeModificat.setDataEmitere(dataEmitere);
                     facturaDeModificat.setPretTotal(pretTotal);
+                    try { bd.ModificaFactura(facturaDeModificat); } catch { }
                 }
             }
 
@@ -319,6 +322,7 @@ namespace Proiect_PAW_Livrari_La_Domiciliu
             if (facturaDeSters != null)
             {
                 listaFacturi.Remove(facturaDeSters);
+                try { bd.StergeFactura(id); } catch { }
                 SalveazaXml();
                 RefreshGrid();
                 GolesesteCampuri();

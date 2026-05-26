@@ -27,6 +27,7 @@ namespace Proiect_PAW_Livrari_La_Domiciliu
             this.menuItemGestionareProduse = new System.Windows.Forms.ToolStripMenuItem();
             this.menuFacturi = new System.Windows.Forms.ToolStripMenuItem();
             this.menuItemGestionareFacturi = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuGrafic = new System.Windows.Forms.ToolStripMenuItem();
             this.menuIesire = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenu = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.ctxGestionareClienti = new System.Windows.Forms.ToolStripMenuItem();
@@ -36,8 +37,11 @@ namespace Proiect_PAW_Livrari_La_Domiciliu
             this.ctxSeparator = new System.Windows.Forms.ToolStripSeparator();
             this.ctxIesire = new System.Windows.Forms.ToolStripMenuItem();
             this.labelTitlu = new System.Windows.Forms.Label();
+            this.labelClientiTitle = new System.Windows.Forms.Label();
+            this.flowClienti = new System.Windows.Forms.FlowLayoutPanel();
             this.menuStrip.SuspendLayout();
             this.contextMenu.SuspendLayout();
+            this.flowClienti.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip
@@ -47,6 +51,7 @@ namespace Proiect_PAW_Livrari_La_Domiciliu
             this.menuComenzi,
             this.menuProduse,
             this.menuFacturi,
+            this.menuGrafic,
             this.menuIesire});
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
@@ -112,9 +117,16 @@ namespace Proiect_PAW_Livrari_La_Domiciliu
             this.menuItemGestionareFacturi.Size = new System.Drawing.Size(169, 22);
             this.menuItemGestionareFacturi.Text = "Gestionare &Facturi";
             this.menuItemGestionareFacturi.Click += new System.EventHandler(this.menuItemGestionareFacturi_Click);
-            // 
+            //
+            // menuGrafic
+            //
+            this.menuGrafic.Name = "menuGrafic";
+            this.menuGrafic.Size = new System.Drawing.Size(49, 20);
+            this.menuGrafic.Text = "&Grafic";
+            this.menuGrafic.Click += new System.EventHandler(this.menuGrafic_Click);
+            //
             // menuIesire
-            // 
+            //
             this.menuIesire.Name = "menuIesire";
             this.menuIesire.Size = new System.Drawing.Size(46, 20);
             this.menuIesire.Text = "&Iesire";
@@ -176,18 +188,38 @@ namespace Proiect_PAW_Livrari_La_Domiciliu
             // 
             this.labelTitlu.AutoSize = true;
             this.labelTitlu.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold);
-            this.labelTitlu.Location = new System.Drawing.Point(260, 200);
+            this.labelTitlu.Location = new System.Drawing.Point(260, 35);
             this.labelTitlu.Name = "labelTitlu";
             this.labelTitlu.Size = new System.Drawing.Size(236, 29);
             this.labelTitlu.TabIndex = 1;
             this.labelTitlu.Text = "Livrari La Domiciliu";
-            // 
+            //
+            // labelClientiTitle
+            //
+            this.labelClientiTitle.AutoSize = true;
+            this.labelClientiTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
+            this.labelClientiTitle.Location = new System.Drawing.Point(12, 78);
+            this.labelClientiTitle.Name = "labelClientiTitle";
+            this.labelClientiTitle.TabIndex = 2;
+            this.labelClientiTitle.Text = "Clienti inregistrati:";
+            //
+            // flowClienti
+            //
+            this.flowClienti.AutoScroll = true;
+            this.flowClienti.Location = new System.Drawing.Point(12, 98);
+            this.flowClienti.Name = "flowClienti";
+            this.flowClienti.Size = new System.Drawing.Size(776, 340);
+            this.flowClienti.TabIndex = 3;
+            this.flowClienti.WrapContents = true;
+            //
             // FormPrincipal
-            // 
+            //
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.ContextMenuStrip = this.contextMenu;
+            this.Controls.Add(this.flowClienti);
+            this.Controls.Add(this.labelClientiTitle);
             this.Controls.Add(this.labelTitlu);
             this.Controls.Add(this.menuStrip);
             this.MainMenuStrip = this.menuStrip;
@@ -197,6 +229,7 @@ namespace Proiect_PAW_Livrari_La_Domiciliu
             this.menuStrip.ResumeLayout(false);
             this.menuStrip.PerformLayout();
             this.contextMenu.ResumeLayout(false);
+            this.flowClienti.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -213,6 +246,7 @@ namespace Proiect_PAW_Livrari_La_Domiciliu
         private System.Windows.Forms.ToolStripMenuItem menuItemGestionareProduse;
         private System.Windows.Forms.ToolStripMenuItem menuFacturi;
         private System.Windows.Forms.ToolStripMenuItem menuItemGestionareFacturi;
+        private System.Windows.Forms.ToolStripMenuItem menuGrafic;
         private System.Windows.Forms.ToolStripMenuItem menuIesire;
         private System.Windows.Forms.ContextMenuStrip contextMenu;
         private System.Windows.Forms.ToolStripMenuItem ctxGestionareClienti;
@@ -222,5 +256,7 @@ namespace Proiect_PAW_Livrari_La_Domiciliu
         private System.Windows.Forms.ToolStripSeparator ctxSeparator;
         private System.Windows.Forms.ToolStripMenuItem ctxIesire;
         private System.Windows.Forms.Label labelTitlu;
+        private System.Windows.Forms.Label labelClientiTitle;
+        private System.Windows.Forms.FlowLayoutPanel flowClienti;
     }
 }

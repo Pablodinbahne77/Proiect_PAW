@@ -3,15 +3,15 @@
   <Comanda>
     <Id>1</Id>
     <IdClient>1</IdClient>
-    <DataComanda>2026-05-20</DataComanda>
+    <DataComanda>2026-05-19</DataComanda>
     <Status>Livrat</Status>
-    <AdresaLivrare>dadada</AdresaLivrare>
+    <AdresaLivrare>bla bla bla</AdresaLivrare>
   </Comanda>
   <Comanda>
     <Id>2</Id>
-    <IdClient>1</IdClient>
-    <DataComanda>2026-05-26</DataComanda>
+    <IdClient>2</IdClient>
+    <DataComanda>2026-05-14</DataComanda>
     <Status>Livrat</Status>
-    <AdresaLivrare>dadada</AdresaLivrare>
+    <AdresaLivrare>blablabla2</AdresaLivrare>
   </Comanda>
 </Comenzi>

@@ -42,9 +42,15 @@ namespace Proiect_PAW_Livrari_La_Domiciliu
             this.btnAdaugaProdus = new System.Windows.Forms.Button();
             this.btnStergeProdus = new System.Windows.Forms.Button();
             this.dgvLinii = new System.Windows.Forms.DataGridView();
+            this.dgvProduseDrag = new System.Windows.Forms.DataGridView();
+            this.labelDragProduse = new System.Windows.Forms.Label();
             this.errorProvider = new System.Windows.Forms.ErrorProvider(this.components);
+            this.labelClientSelectat = new System.Windows.Forms.Label();
+            this.controlClientSelectat = new Proiect_PAW_Livrari_La_Domiciliu.ControlClient();
             ((System.ComponentModel.ISupportInitialize)(this.dgvComenzi)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvLinii)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvProduseDrag)).BeginInit();
+            this.controlClientSelectat.SuspendLayout();
             this.SuspendLayout();
             //
             // labelDateComanda
@@ -249,13 +255,50 @@ namespace Proiect_PAW_Livrari_La_Domiciliu
             this.dgvLinii.Size = new System.Drawing.Size(638, 145);
             this.dgvLinii.TabIndex = 23;
             //
+            // labelDragProduse
+            //
+            this.labelDragProduse.AutoSize = true;
+            this.labelDragProduse.Location = new System.Drawing.Point(710, 375);
+            this.labelDragProduse.Name = "labelDragProduse";
+            this.labelDragProduse.Text = "Trageti produse in lista:";
+            //
+            // dgvProduseDrag
+            //
+            this.dgvProduseDrag.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvProduseDrag.Location = new System.Drawing.Point(710, 393);
+            this.dgvProduseDrag.Name = "dgvProduseDrag";
+            this.dgvProduseDrag.Size = new System.Drawing.Size(220, 200);
+            this.dgvProduseDrag.TabIndex = 24;
+            this.dgvProduseDrag.ReadOnly = true;
+            this.dgvProduseDrag.MultiSelect = false;
+            this.dgvProduseDrag.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            //
+            // labelClientSelectat
+            //
+            this.labelClientSelectat.AutoSize = true;
+            this.labelClientSelectat.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
+            this.labelClientSelectat.Location = new System.Drawing.Point(710, 9);
+            this.labelClientSelectat.Name = "labelClientSelectat";
+            this.labelClientSelectat.Text = "Client selectat:";
+            //
+            // controlClientSelectat
+            //
+            this.controlClientSelectat.Location = new System.Drawing.Point(710, 28);
+            this.controlClientSelectat.Name = "controlClientSelectat";
+            this.controlClientSelectat.Size = new System.Drawing.Size(220, 104);
+            this.controlClientSelectat.TabIndex = 25;
+            //
             // FormComenzi
             //
             this.AcceptButton = this.btnSalveaza;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnAnuleaza;
-            this.ClientSize = new System.Drawing.Size(800, 610);
+            this.ClientSize = new System.Drawing.Size(960, 620);
+            this.Controls.Add(this.controlClientSelectat);
+            this.Controls.Add(this.labelClientSelectat);
+            this.Controls.Add(this.dgvProduseDrag);
+            this.Controls.Add(this.labelDragProduse);
             this.Controls.Add(this.dgvLinii);
             this.Controls.Add(this.btnStergeProdus);
             this.Controls.Add(this.btnAdaugaProdus);
@@ -284,6 +327,8 @@ namespace Proiect_PAW_Livrari_La_Domiciliu
             this.Text = "FormComenzi";
             ((System.ComponentModel.ISupportInitialize)(this.dgvComenzi)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvLinii)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvProduseDrag)).EndInit();
+            this.controlClientSelectat.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
         }
@@ -314,6 +359,10 @@ namespace Proiect_PAW_Livrari_La_Domiciliu
         private System.Windows.Forms.Button btnAdaugaProdus;
         private System.Windows.Forms.Button btnStergeProdus;
         private System.Windows.Forms.DataGridView dgvLinii;
+        private System.Windows.Forms.DataGridView dgvProduseDrag;
+        private System.Windows.Forms.Label labelDragProduse;
         private System.Windows.Forms.ErrorProvider errorProvider;
+        private System.Windows.Forms.Label labelClientSelectat;
+        private ControlClient controlClientSelectat;
     }
 }

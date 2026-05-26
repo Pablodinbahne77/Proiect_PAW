@@ -1,9 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Facturi>
   <Factura>
-    <Id>3</Id>
+    <Id>1</Id>
     <IdComanda>1</IdComanda>
     <DataEmitere>2026-05-26</DataEmitere>
-    <PretTotal>82.00</PretTotal>
+    <PretTotal>121,00</PretTotal>
+  </Factura>
+  <Factura>
+    <Id>2</Id>
+    <IdComanda>2</IdComanda>
+    <DataEmitere>2026-05-26</DataEmitere>
+    <PretTotal>179,00</PretTotal>
   </Factura>
 </Facturi>

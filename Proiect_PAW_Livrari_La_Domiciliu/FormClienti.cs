@@ -11,6 +11,7 @@ namespace Proiect_PAW_Livrari_La_Domiciliu
         private List<Client> listaClienti = new List<Client>();
         private int idUrm = 1;
         private string caleXml = "clienti.xml";
+        private AccesBD bd = new AccesBD();
 
         public FormClienti()
         {
@@ -137,6 +138,7 @@ namespace Proiect_PAW_Livrari_La_Domiciliu
             {
                 Client clientNou = new Client(idUrm, tbNume.Text, tbPrenume.Text, tbEmail.Text, tbTelefon.Text, tbAdresa.Text);
                 listaClienti.Add(clientNou);
+                try { bd.AdaugaClient(clientNou); } catch { }
                 idUrm++;
             }
             else
@@ -160,6 +162,7 @@ namespace Proiect_PAW_Livrari_La_Domiciliu
                     clientDeModificat.setEmail(tbEmail.Text);
                     clientDeModificat.setTelefon(tbTelefon.Text);
                     clientDeModificat.setAdresa(tbAdresa.Text);
+                    try { bd.ModificaClient(clientDeModificat); } catch { }
                 }
             }
 
@@ -225,6 +228,7 @@ namespace Proiect_PAW_Livrari_La_Domiciliu
             if (clientDeSters != null)
             {
                 listaClienti.Remove(clientDeSters);
+                try { bd.StergeClient(id); } catch { }
                 SalveazaXml();
                 RefreshGrid();
                 GolesesteCampuri();
